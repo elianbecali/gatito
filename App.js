@@ -1,21 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { Services } from './src/screens/Services';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Elian!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Services />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
